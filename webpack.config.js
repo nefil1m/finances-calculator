@@ -22,9 +22,6 @@ module.exports = {
       test: /\.tsx?$/,
       loader: 'ts-loader',
       exclude: /node_modules/,
-      options: {
-        name: '[name].[ext]?[hash]',
-      },
     }, {
       test: /\.(png|jpg|gif|svg)$/,
       loader: 'file-loader',
